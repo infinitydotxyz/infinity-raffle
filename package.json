@@ -9,7 +9,6 @@
     "lint:sol": "solhint 'contracts/**/*.sol'",
     "build-contracts": "sol-merger \"./contracts/*.sol\" ./build",
     "flatten": "hardhat flatten",
-    "deploy:test": "hardhat deployTest",
     "deploy:raffle": "hardhat deployDummyRaffle"
   },
   "devDependencies": {
