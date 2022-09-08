@@ -1,10 +1,8 @@
 {
-  "name": "solidity-template",
+  "name": "infinity-raffle",
   "version": "1.0.0",
-  "description": "Template for writing solidity contracts",
-  "main": "dist/index.js",
-  "repository": "https://github.com/jfrazier-eth/solidity-template",
-  "author": "Joe Frazier <54604023+jfrazier-eth@users.noreply.github.com>",
+  "description": "Module containing the infinity raffle contracts",
+  "repository": "https://github.com/mavriklabs/infinity-raffle",
   "license": "MIT",
   "scripts": {
     "fmt:sol": "prettier --write 'contracts/**/*.sol'",
@@ -15,6 +13,7 @@
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.1.1",
+    "@nomiclabs/hardhat-etherscan": "^3.1.0",
     "@openzeppelin/contracts": "^4.7.3",
     "@types/node": "^18.7.16",
     "cross-env": "^7.0.3",
@@ -31,8 +30,5 @@
     "solidity-coverage": "^0.8.2",
     "ts-node": "^10.9.1",
     "typescript": "^4.8.3"
-  },
-  "dependencies": {
-    "@nomiclabs/hardhat-etherscan": "^3.1.0"
   }
 }

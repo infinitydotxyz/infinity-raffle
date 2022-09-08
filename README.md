@@ -1,1 +1,1 @@
-# solidity-template
+# Infinity Raffle Contracts
