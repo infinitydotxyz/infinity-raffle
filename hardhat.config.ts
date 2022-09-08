@@ -10,7 +10,6 @@ config();
  * TASKS
  */
 import "./tasks/deploy-dummy-raffle";
-import "./tasks/deploy-test";
 
 const hardhatConfig: HardhatUserConfig = {
   networks: {
