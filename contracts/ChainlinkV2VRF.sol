@@ -34,6 +34,7 @@ contract ChainlinkV2VRF is Ownable, VRFConsumerBaseV2, RNG {
 
   function requestRandomNumbers(uint32 numRandomNumbers)
     external
+    override
     onlyOwner
     returns (uint256)
   {
@@ -65,6 +66,7 @@ contract ChainlinkV2VRF is Ownable, VRFConsumerBaseV2, RNG {
   function isRequestFulfilled(uint256 requestId)
     external
     view
+    override
     returns (bool isFulfilled)
   {
     return randomNumbers[requestId].length > 0;
@@ -73,6 +75,7 @@ contract ChainlinkV2VRF is Ownable, VRFConsumerBaseV2, RNG {
   function getFulfilledRequest(uint256 requestId)
     external
     view
+    override
     returns (uint256[] memory randomWords)
   {
     return randomNumbers[requestId];
