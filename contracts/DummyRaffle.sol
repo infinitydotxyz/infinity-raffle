@@ -6,6 +6,9 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 import { ChainlinkV2VRF } from "./ChainlinkV2VRF.sol";
 
+/**
+ * THIS CONTRACT IS NOT SECURE 
+ */
 contract DummyRaffle is Ownable {
   event Entry(address entrant, uint256 tickets, uint256 lottery);
 
