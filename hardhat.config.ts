@@ -1,6 +1,5 @@
 import "@nomiclabs/hardhat-ethers";
 import "@nomiclabs/hardhat-etherscan";
-// import "@nomiclabs/hardhat-waffle";
 import "solidity-coverage";
 import "hardhat-contract-sizer"
 import { HardhatUserConfig } from "hardhat/types";
