@@ -2,12 +2,12 @@
   "name": "infinity-raffle",
   "version": "1.0.0",
   "description": "Module containing the infinity raffle contracts",
-  "repository": "https://github.com/mavriklabs/infinity-raffle",
+  "repository": "https://github.com/infinitydotxyz/infinity-raffle",
   "license": "MIT",
   "scripts": {
     "fmt:sol": "prettier --write 'contracts/**/*.sol'",
     "lint:sol": "solhint 'contracts/**/*.sol'",
-    "build-contracts": "sol-merger \"./contracts/*.sol\" ./build",
+    "build": "sol-merger \"./contracts/*.sol\" ./build",
     "flatten": "hardhat flatten",
     "deploy:raffle": "hardhat deployDummyRaffle"
   },
